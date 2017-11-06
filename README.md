@@ -1,3 +1,4 @@
+
 # Crouton-OS
 This adds crouton and SeaBIOS to any Chrome OS or Chromium OS based computer.
 
@@ -24,9 +25,19 @@ Steps -
     - to start your new OS, type, in shell, sudo startunity(or whatever desktop environment you chose. For Unity-desktop, type sudo startunity).
     B* - type sudo sh ~/Downloads/crouton -r xenial -t unity-desktop
      - follow the steps after step 4 for A
+     
+6 -  in Chrome OS Shell, type cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh for SeaBIOS
+   - when a table with device information shows up, press 1
+   - when a yes or no question comes up, type y
+   - when prompted to, press ENTER
+   - then press q
+   - now whenever you plug in a bootable removable storage device (like a USB drive), hold down Ctrl+L on the developer screen and it should take you to SeaBIOS. Navigate and choose your removable device, like you would on a regular Windows BIOS, and it will boot from the removable storage with any OS*.
+   
 
 6 - A* - only for advanced users
 7 - B* - for any users
+9 - OS* - WP Screw has to be unscrewed for Windows to boot 
 8 - shell* - developer mode should be enabled
 
 
+   
