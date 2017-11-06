@@ -10,7 +10,7 @@ Steps -
 
 3 - press Ctrl+Alt+T to open crosh
 
-4 - type shell
+4 - type shell*
 
 5 - 
   A* - type sudo sh ~/Downloads/crouton -r list
@@ -35,3 +35,6 @@ Steps -
 7 - A* - only for advanced users
 8 - B* - for any users
 9 - OS* - WP Screw has to be unscrewed for Windows to boot
+10 - shell* - developer mode should be enabled
+
+
