@@ -34,10 +34,10 @@ Steps -
    - now whenever you plug in a bootable removable storage device (like a USB drive), hold down Ctrl+L on the developer screen and it should take you to SeaBIOS. Navigate and choose your removable device, like you would on a regular Windows BIOS, and it will boot from the removable storage with any OS*.
    
 
-6 - A* - only for advanced users
-7 - B* - for any users
+7 - A* - only for advanced users
+8 - B* - for any users
 9 - OS* - WP Screw has to be unscrewed for Windows to boot 
-8 - shell* - developer mode should be enabled
+10 - shell* - developer mode should be enabled
 
 
    
